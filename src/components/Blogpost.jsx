@@ -9,7 +9,7 @@ export default function Blogpost(props) {
           <div className="blogpost-section__location">
             <span className="location-icon"></span>
             <p className="location-name">{props.location}</p>
-            <a href="https://goo.gl/maps/jdPrt6GEUv7nhaE37" className="location-link">View on Google Maps</a>
+            <a href={props.googleMapsUrl} target="_blank" className="location-link">View on Google Maps</a>
           </div>
           <h1 className="blogpost-section__title">{props.title}</h1>
           <p className="blogpost-section__date">{props.date}</p>
