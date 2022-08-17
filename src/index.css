@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+html {
+  font-size: 62.5%;
+  font-family: 'Inter', sans-serif;
+}
+.header-nav {
+  height: 5.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #F55A5A;
+}
+.header-nav__logo {
+  width: 2.4rem;
+  height: 2.4rem;
+  margin-right: .5rem;
+  background: url('../public/icons/world-icon.svg') no-repeat center center;
+}
+.header-nav__title {
+  font-weight: 500;
+  font-size: 1.446rem;
+  letter-spacing: -0.075em;
+  color: #FFFFFF;
+}
