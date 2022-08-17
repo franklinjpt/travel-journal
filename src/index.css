@@ -7,6 +7,10 @@ html {
   font-size: 62.5%;
   font-family: 'Inter', sans-serif;
 }
+hr {
+  margin: 0 2rem;
+  border: 1px solid #00000008;
+}
 .header-nav {
   height: 5.5rem;
   display: flex;
@@ -25,4 +29,61 @@ html {
   font-size: 1.446rem;
   letter-spacing: -0.075em;
   color: #FFFFFF;
+}
+.blogpost-container {
+  max-width: 768px;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem 0;
+  margin: 0 auto;
+}
+.blogpost{
+  display: flex;
+  max-width: 625px;
+  padding: 2rem;
+}
+.blogpost__figure {
+  max-width: 123.562px;
+  height: 16.8rem;
+  margin-right: 1.2rem;
+}
+.blogpost__figure img{
+  min-width: 85px;
+  min-height: 168px;
+  width: 100%;
+  height: 100%;
+  border-radius: 5px;
+  object-fit: cover;
+}
+.blogpost-section {
+  color: #2B283A;
+  font-size: 1.08rem;
+}
+.blogpost-section__location {
+  display: flex;
+}
+.blogpost-section__location > *{
+  margin-right: .5rem;
+  font-size: 1rem;
+}
+.location-icon {
+  display: inline-block;
+  width: .7rem;
+  height: .955rem;
+  background: url('../public/icons/location-icon.svg') no-repeat center/100%;
+}
+.location-name {
+  letter-spacing: 0.17em;
+  text-transform: uppercase;
+}
+.location-link {
+  color: #918E9B;
+}
+.blogpost-section__title {
+  padding: .5rem 0;
+  font-size: 2.5rem;
+}
+.blogpost-section__date {
+  padding: .6rem 0;
+  font-weight: 700;
 }
